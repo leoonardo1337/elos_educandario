@@ -1,0 +1,17 @@
+.hero .btn-get-started {
+    margin-top: 30px;
+    line-height: 0;
+    padding: 15px 40px;
+    border-radius: 4px;
+    transition: 0.5s;
+    color: #fff;
+    color: black;
+    background: white;
+    box-shadow: 0px 5px 30px rgba(255, 255, 255, 0.4);
+}
+
+.h1-cstm
+{
+    font-weight: 700;
+    color: #012970;
+}
