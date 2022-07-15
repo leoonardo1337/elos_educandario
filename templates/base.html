@@ -34,11 +34,11 @@
             </a>
             <nav id="navbar" class="navbar">
                 <ul>
-                    <li><a class="nav-link scrollto active" href="#hero">Início</a></li>
-                    <li><a class="nav-link scrollto" href="#about">Sobre nós</a></li>
-                    <li><a class="nav-link scrollto" href="#services">Serviços</a></li>
-                    <li><a class="nav-link scrollto" href="#portfolio">Galeria</a></li>
-                    <li><a class="nav-link scrollto" href="#contact">Contato</a></li>
+                    <li><a class="nav-link scrollto active" href={{url_for('root')}}#hero>Início</a></li>
+                    <li><a class="nav-link scrollto" href={{url_for('root')}}#about>Sobre nós</a></li>
+                    <li><a class="nav-link scrollto" href={{url_for('root')}}#services>Serviços</a></li>
+                    <li><a class="nav-link scrollto" href={{url_for('root')}}#portfolio>Galeria</a></li>
+                    <li><a class="nav-link scrollto" href={{url_for('root')}}#contact>Contato</a></li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
             </nav>
@@ -74,7 +74,7 @@
             </div>
         </div>
     </footer>
-    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-whatsapp"></i></a>
+    <a target="_blank" href="https://wa.me/" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-whatsapp"></i></a>
     <!-- Vendor JS Files -->
     <script src="static/assets/vendor/purecounter/purecounter.js"></script>
     <script src="static/assets/vendor/aos/aos.js"></script>
